@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Pacifico', cursive;
+}
+h1::before{
+    position: absolute;
+    content: "";
+width: 17%;
+height: 15%;
+bottom: 45px;
+background-color: #fec260;
+transition: height 350ms;
+z-index: -1;
+}
+.dotted-bottom{
+    border-width: 0px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+body{
+    background: #F7ECDE;
+}
+.gradiant-text{
+
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family: 'Righteous', cursive;
+}
+label{
+    font-family: 'PT Sans Caption', sans-serif;
+}
